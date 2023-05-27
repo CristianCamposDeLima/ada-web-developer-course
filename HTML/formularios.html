@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+        <form action="" method="">
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" placeholder="Informe o seu nome..." name="nome">
+            </div>
+            <br>
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" value="0" id="idade"  name="idade">
+            </div>
+            <br>
+            <div>
+                <label for="Email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <br>
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <br>
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+            <br>
+            <div>
+                <label for="arquivo">
+                    Escolha o arquivo:</label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+            <br>
+            <div>
+                <label for="cor">
+                    Escolha a cor:</label>
+                <input type="color" name="cor" id="cor">
+            </div>
+            <br>
+            <div>
+                <label for="url">
+                    Insira a URL:</label>
+                <input type="url" name="url" id="url">
+            </div>
+            <br>
+            <div>
+                <label for="range">
+                    Deslize:</label>
+                <input type="range" name="range" id="range" value="80" min="0" max="100">
+            </div>
+            <br>
+            <div>
+                <label for="check-box">
+                    Marque (se necessário):</label>
+                <input type="checkbox" name="range">
+                <input type="checkbox" name="range" checked>
+                <input type="checkbox" name="range">
+            </div>
+            <br>
+            <div>
+                <label for="radio">
+                    Escolha um:</label>
+                <input type="radio" name="radio">
+                <input type="radio" name="radio">
+                <input type="radio" name="radio">
+            </div>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opçoes...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferencia</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="reset">
+                    Clique para limpar:</label>
+                <input type="reset" name="reset" id="reset" value="Limpar">
+            </div>
+            <br>
+            <div>
+                <!-- <label for="enviar">Clique para enviar:</label> -->
+                <input type="submit" name="enviar" id="enviar">
+            </div>
+
+
+        </form>
+
+    </main>
+    
+</body>
+</html>

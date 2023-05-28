@@ -2,14 +2,33 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 :root {
     font-size: 62.5%;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+table thead {
+    background-color: steelblue;
+    color: white;
+}
+table tbody tr:nth-child(2n + 2) {
+    background-color: #dfdfdf;
+
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
 }
 
 h1 {
@@ -69,4 +88,37 @@ a:hover {
     background-position: center;
     background-attachment: fixed;
 
+}
+
+ul, ol {
+    font-size: 1.8rem;
+    padding-left: 3.2rem;
+}
+
+ul {
+list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: blue;
+    color: white;
+    border: 10px solid red;
+    display: inline-block;
+    border-radius: 0.4rem;
+
+}
+
+img {
+    height: 10rem;
+    width: 20rem;
+    object-fit: cover;
 }

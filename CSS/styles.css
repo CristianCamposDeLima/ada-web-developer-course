@@ -1,6 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
-    color: red;
-    background-color: aqua;
+    color: #f007;
     font-size: 96px;
     font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+
+}
+
+p {
+font-size: 18px;
+text-align: justify;
+text-indent: 90px;
+}
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-color: #313131;
+    background-image: url(https://media.istockphoto.com/id/968493038/pt/foto/northern-lights-aurora-seaside-color-in-norway.webp?s=170667a&w=0&k=20&c=ckmxlCQhXu7SLTgD-DfRtHak5YrGeCjKTe282ip29mI=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
